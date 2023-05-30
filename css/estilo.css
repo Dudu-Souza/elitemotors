@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Chakra +Petch & display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(50, 50, 50);
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    background-color: none;
+    border: none;
+    outline: none;
+    padding: 1rem 1rem;
+    display: inline-block;
+    border-radius: 0.5rem;
+}
+
+.btn.btn-primary {
+    background-color: #F10B02;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    transition: 0.5s;
+}
+
+.btn.btn-primary:hover {
+    background-color: #bf0802;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(80, 80, 80);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+}
+
+.logo img {
+    display: block;
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    margin-right: 30px;
+    gap: 25px;
+}
+
+.navbar ul li a:hover {
+    color: #F10B02;
+    transition: 0.5s;
+}
+
+.inicio {
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+.inicio .inicio_esquerdo {
+    margin-left: 85px;
+}
+
+.inicio .inicio_esquerdo h1 {
+    color: #fff;
+    font-size: 2em;
+}
+
+.text {
+    color: #F10B02;
+}
+
+.inicio .inicio_esquerdo p {
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.inicio .inicio_direito {
+    width: 650px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.inicio .inicio_direito img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+main#sobre {
+    margin-top: 150px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 400px;
+}
+
+.sobre {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.txt {
+    width: 50%;
+    margin-left: 10px;
+}
+
+label{
+    color: white;
+}
+.secaotrabalhe{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type="submit"]{
+    min-width: 170px;
+}
+.contato {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fotos{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.fotos img{
+    width: 80%;
+}
+.mixDeFotos{
+    
+}
+
+main#equipe {
+
+    color: #fff;
+
+    text-align: center;
+
+    margin-top: 10px;
+
+    font-size: 30px;
+
+    font-family: 'Chakra Petch';
+
+}
+
+
+
+
+main#equipe .name {
+
+    color: #f10b02;
+
+}
+
+main#equipe div.equip{
+
+    width: 80%;
+
+    min-height: 500px;
+
+    background-color: #fff;
+
+    margin: 10px auto;
+
+    padding: 20px;
+
+}
+
+main#equipe div.person{
+
+    width: 80%;
+
+    height: 240px;
+
+    margin: 30px auto;
+
+    padding: 5px;
+
+    color: rgb(50, 50, 50);
+
+}
+
+main#equipe img{
+
+    width: 220px;
+
+    height: 220px;
+
+    display: flex;
+
+    align-items: center;
+
+    margin: 10px 10px;
+
+    border-radius: 120px;
+
+    box-shadow: 1px 1px 10px 1px #f10b02;
+
+}
+
+main#equipe div.text{
+
+    margin-top: -203px;
+
+    margin-left: 258px;
+
+}
+
+main#equipe p.cargo{
+
+    font-size: 20px;
+
+    font-weight:900;
+
+}
+
+main#equipe p.desc{
+
+    font-size: 18px;
+
+    margin-top: 10px;
+
+    text-align: justify;
+
+    margin-left: 50px;
+
+}
+
+main#equipe a{
+
+    margin-right: 10px;
+
+}
+
+
